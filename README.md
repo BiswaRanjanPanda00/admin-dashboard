@@ -1,3 +1,6 @@
+First when u get the code from this repository run the command **npm i** in order to install all required packages.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
