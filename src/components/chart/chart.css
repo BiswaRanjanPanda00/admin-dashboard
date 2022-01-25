@@ -1,0 +1,16 @@
+.chart {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.chart-title {
+    margin-bottom: 20px;
+    
+}
+
+.home-widgets {
+    display: flex;
+    margin: 20px;
+}

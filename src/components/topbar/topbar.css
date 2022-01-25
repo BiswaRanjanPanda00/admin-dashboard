@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lato&display=swap');
+
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbar-wrapper {
+    display: flex;
+    height: 100%;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    font-family: 'Audiowide', cursive;
+    cursor: pointer;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-icon-container {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+}
+
+.topbar-icon-badge {
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.topbar-avatar {
+    cursor: pointer;
+}
